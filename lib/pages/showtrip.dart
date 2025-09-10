@@ -264,7 +264,7 @@ class _ShowTripPageState extends State<ShowTripPage> {
           .where((trip) => trip.destinationZone == 'ประเทศไทย')
           .toList();
     });
-    log("อาเซียน");
+    log("ประเทศไทย");
   }
 
   Future<void> getTrips() async {
